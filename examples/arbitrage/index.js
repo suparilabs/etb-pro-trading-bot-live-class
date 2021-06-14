@@ -1,5 +1,5 @@
 "use strict";
-
+// this code find common pairs among the exchanges passed as an cli arguments
 const ccxt      = require ('ccxt')
     , asTable   = require ('as-table')
     , log       = require ('ololog').configure ({ locate: false })

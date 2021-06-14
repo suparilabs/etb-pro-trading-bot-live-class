@@ -1,0 +1,1 @@
+`node ./arbitrage-pair.js binance gemini kraken`
