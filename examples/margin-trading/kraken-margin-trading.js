@@ -1,5 +1,5 @@
 "use strict";
-require("dotenv").config({path:"./kraken-demo-credentials.txt"});
+require("dotenv").config();
 const ccxt = require ('ccxt');
 
 console.log ('CCXT Version:', ccxt.version)
@@ -8,8 +8,8 @@ async function main () {
 
     const exchange = new ccxt.kraken ({
         'enableRateLimit': true,
-        "apiKey": process.env.KRAKEN_DEMO_API_KEY,
-        "secret": process.env.KRAKEN_DEMO_SECRET_KEY,
+        "apiKey": process.env.KRAKEN_API_KEY,
+        "secret": process.env.KRAKEN_SECRET_KEY,
     })
 
     console.log ('-----------------------------------------------------------')
@@ -18,11 +18,11 @@ async function main () {
     const markets = await exchange.loadMarkets ()
     console.log ('Markets loaded')
 
-    // exchange.verbose = true // uncomment for debugging purposes
+    exchange.verbose = true // uncomment for debugging purposes
 
     try {
 
-        const symbol = 'ETH/USDT'
+        const symbol = 'BTC/USD'
             , market = exchange.market (symbol)
             , { base, quote } = market
             , type = 'market'
