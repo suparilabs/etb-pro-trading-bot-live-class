@@ -114,6 +114,25 @@
 
 </script></section>
 
+<section data-background-iframe="https://dhruvinparikh.github.io/#about"data-background-interactive>
+  <div
+    style="
+      position: absolute;
+      width: 40%;
+      right: 0;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+        0 5px 25px rgba(0, 0, 0, 0.2);
+      background-color: rgba(0, 0, 0, 0.9);
+      color: #fff;
+      padding: 5px;
+      font-size: 20px;
+      text-align: center;
+    "
+  >
+    <h2>About The Instructor</h2>
+  </div>
+</section>
+
 <section data-markdown><script type="text/template">
 
 ## Plan
@@ -126,46 +145,138 @@
 
 </script></section>
 
+<section>
 
+<p data-markdown>
+## Arbitrage
+</p>
 
+<div class="left">
+    <img src="arbitrage.jpeg" style="float: left; border:0px; background-color: white" />
+</div>
 
+<div class="right"><p data-markdown>
+* purchase and sale of an asset in order to profit from a difference in the asset’s price between marketplaces
+</p></div>
 
+</section>
 
 <section data-markdown><script type="text/template">
 
-## Proof of knowledge
+## Price slippage
 
-Example unix password DB:
-
-<pre class="hljs js" style="font-size: 45%">
-alice:$2y$10$weUPjZkUXH6gsPt14UcR/uxCoHRVYf4oEe1CdAZTnHq8eM3SzbXsW
-bob:$2y$10$DwIX.8e3sNlh8sMMJzS5P./j0BNtGwejh/dxvTH4TDjmBzoEOpfd.
-carol:$2y$10$xK/m/d4vGlGLylOnQGb/kO4g16aC4S0VrsHOxVcG5zHHO3GQj/vwG
-</pre>
-
-* The DB doesn't store the plain-text passwords
-* But you can verify somebody knows a password by hashing what they provide and comparing to what's in the DB
-  * The password they provide is a **proof** they know the password
-
+*expected trade price  - trade execution price*
+* Causes
+  * High volatility in market for short period
+  * Current trade volume exceeds the existing bid/ask spread.
+  
 </script></section>
 
 <section>
 
 <p data-markdown>
-## git
+## Orderbook
 </p>
 
 <div class="left">
-    <img src="git1.svg" style="float: left; border:0px; background-color: white" />
+    <img src="orderbook.webp" style="float: left; border:0px; background-color: white" />
 </div>
 
 <div class="right"><p data-markdown>
-* Placeholder 1
-* Placeholder 2
-* PLaceholder 3
+* Collection of bid-and-ask orders. 
+* Orders are matched and executed only when a bid and ask price are the same.
 </p></div>
 
 </section>
+
+<section data-markdown><script type="text/template">
+
+## Programmable trading
+
+* Possible through a software program that uses API's to interact
+  with financial exchanges
+* This software program actively monitor exchanges around the clock and react
+  with whatever predetermined criteria they have been programmed with. 
+  
+</script></section>
+
+
+<section data-markdown><script type="text/template">
+
+## Trading bot strategies
+
+* Trend following strategy
+* Arbitrage
+* Market making
+
+and many more. [Reference](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp)
+  
+</script></section>
+
+
+<section data-markdown><script type="text/template">
+
+## Building a cryptocurrency trading bot
+
+![build crypto bot](./build-crypto-bot.svg)
+  
+</script></section>
+
+<section data-markdown><script type="text/template">
+
+## Architecture of Node JS crypto trading bot
+
+<img src="bot-architecture.svg" width="500" />
+  
+</script></section>
+
+<section data-markdown><script type="text/template">
+
+## CCXT: Convenience crypto trading API
+
+* Supports 120+ cryptocurrency centralized exchanges
+* Available in Node JS, python and PHP
+```
+# Node JS installation
+$ npm install ccxt
+```  
+</script></section>
+
+<section data-markdown><script type="text/template">
+
+## CCXT: Example Usage
+
+```
+// initialize
+const ccxt = require('ccxt');
+
+// print all supported exchanges
+console.log(ccxt.exchanges)
+
+// create kraken exchange object
+const krakenExchange = new ccxt.kraken();
+
+// print kraken id and market available on kraken
+console.log(krakenExchange.id, await kraken.loadMarkets)
+```
+</script></section>
+
+<section data-markdown><script type="text/template">
+
+## Demo
+
+* A cli based automatic arbitrage crypto exchange 
+  
+</script></section>
+
+</section>
+
+<section data-markdown><script type="text/template">
+
+## References
+* [CCXT Github](https://github.com/ccxt/ccxt)
+
+</script></section>
 
 
 <section data-markdown><script type="text/template">
@@ -209,6 +320,8 @@ carol:$2y$10$xK/m/d4vGlGLylOnQGb/kO4g16aC4S0VrsHOxVcG5zHHO3GQj/vwG
           { src: '../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: '../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
           { src: '../reveal.js/plugin/math/math.js', async: true },
+          // Zoom in and out with Alt+click
+          { src: "../reveal.js/plugin/zoom-js/zoom.js", async: true },
         ]
       });
 
