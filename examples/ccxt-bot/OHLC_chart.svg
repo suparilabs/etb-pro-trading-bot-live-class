@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="350px"
+	 height="602px" viewBox="0 0 350 602" enable-background="new 0 0 350 602" xml:space="preserve">
+<g id="Layer_1">
+	<line fill="none" stroke="#ED454A" stroke-width="4" x1="134.494" y1="130.925" x2="134.494" y2="190.515"/>
+	<line fill="none" stroke="#39B54A" stroke-width="4" x1="194.323" y1="88.09" x2="194.323" y2="161.43"/>
+	<line fill="none" stroke="#ED454A" stroke-width="4" x1="253.887" y1="159.155" x2="253.887" y2="217.809"/>
+	<text transform="matrix(1 0 0 1 23.0361 43.3008)" font-family="'Helvetica'" font-size="14">Price scale</text>
+	<text transform="matrix(1 0 0 1 166.8848 28.6343)" font-family="'Helvetica'" font-size="14">Symbols</text>
+	<text transform="matrix(1 0 0 1 160.9087 299.6074)" font-family="'Helvetica'" font-size="14">Time scale</text>
+	<text transform="matrix(1 0 0 1 119.0762 261.6074)" fill="#999999" font-family="'Helvetica'" font-size="12">Day 1</text>
+	<text transform="matrix(1 0 0 1 60.0762 241.3052)" fill="#999999" font-family="'Helvetica'" font-size="12">0</text>
+	<text transform="matrix(1 0 0 1 40.0547 202.3052)" fill="#999999" font-family="'Helvetica'" font-size="12">$100</text>
+	<text transform="matrix(1 0 0 1 40.0547 162.8052)" fill="#999999" font-family="'Helvetica'" font-size="12">$200</text>
+	<text transform="matrix(1 0 0 1 40.0547 123.8052)" fill="#999999" font-family="'Helvetica'" font-size="12">$300</text>
+	<text transform="matrix(1 0 0 1 40.0547 84.3052)" fill="#999999" font-family="'Helvetica'" font-size="12">$400</text>
+	<text transform="matrix(1 0 0 1 180.3027 261.6074)" fill="#999999" font-family="'Helvetica'" font-size="12">Day 2</text>
+	<text transform="matrix(1 0 0 1 239.0762 261.6074)" fill="#999999" font-family="'Helvetica'" font-size="12">Day 3</text>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="0.75" x1="57.271" y1="63.014" x2="57.271" y2="46.25"/>
+			<g>
+				<polygon points="61.01,62.102 57.271,67.5 53.531,62.102 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#B3B3B3" stroke-width="2" points="81.75,80.755 81.75,237.555 304.581,237.555 			"/>
+			<g>
+				<polygon fill="#B3B3B3" points="297.954,245.734 296.59,244.27 303.813,237.557 296.59,230.842 297.954,229.377 306.75,237.557 
+									"/>
+			</g>
+		</g>
+	</g>
+	<line fill="none" stroke="#B3B3B3" stroke-width="2" x1="134.75" y1="237.555" x2="134.75" y2="247.055"/>
+	<line fill="none" stroke="#B3B3B3" stroke-width="2" x1="80.75" y1="237.555" x2="71.25" y2="237.555"/>
+	<line fill="none" stroke="#B3B3B3" stroke-width="2" x1="82.75" y1="80.755" x2="71.25" y2="80.755"/>
+	<line fill="none" stroke="#B3B3B3" stroke-width="2" x1="80.75" y1="119.955" x2="71.25" y2="119.955"/>
+	<line fill="none" stroke="#B3B3B3" stroke-width="2" x1="80.75" y1="159.154" x2="71.25" y2="159.154"/>
+	<line fill="none" stroke="#B3B3B3" stroke-width="2" x1="80.75" y1="198.355" x2="71.25" y2="198.355"/>
+	<line fill="none" stroke="#B3B3B3" stroke-width="2" x1="194.75" y1="237.555" x2="194.75" y2="247.055"/>
+	<line fill="none" stroke="#B3B3B3" stroke-width="2" x1="254.75" y1="237.555" x2="254.75" y2="247.055"/>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" points="134.499,122.344 134.499,53.583 253.833,53.583 253.833,150.878 			"/>
+			<g>
+				<polygon points="137.989,121.322 134.499,127.367 131.009,121.322 				"/>
+			</g>
+			<g>
+				<polygon points="250.343,149.857 253.833,155.902 257.323,149.857 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" x1="194.499" y1="34.25" x2="194.499" y2="79.282"/>
+			<g>
+				<polygon points="191.009,78.261 194.499,84.305 197.989,78.261 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<polyline fill="none" stroke="#000000" points="276.898,267.389 276.898,275.055 113.602,275.055 113.602,267.389 		"/>
+	</g>
+	<line fill="none" stroke="#000000" x1="194.75" y1="275.055" x2="194.75" y2="286.225"/>
+	<line fill="none" stroke="#ED454A" stroke-width="4" x1="134.494" y1="135.346" x2="125.494" y2="135.346"/>
+	<line fill="none" stroke="#39B54A" stroke-width="4" x1="194.55" y1="155.902" x2="185.55" y2="155.902"/>
+	<line fill="none" stroke="#ED454A" stroke-width="4" x1="253.779" y1="170.43" x2="244.779" y2="170.43"/>
+	<line fill="none" stroke="#ED454A" stroke-width="4" x1="262.887" y1="195.259" x2="253.887" y2="195.259"/>
+	<line fill="none" stroke="#39B54A" stroke-width="4" x1="203.198" y1="103.09" x2="194.198" y2="103.09"/>
+	<line fill="none" stroke="#ED454A" stroke-width="4" x1="143.515" y1="176.492" x2="134.515" y2="176.492"/>
+	<rect x="10.333" y="332.25" fill="#E6E6E6" width="329.334" height="26.5"/>
+	<text transform="matrix(1 0 0 1 109.6558 351.1807)" fill="#333333" font-family="'Helvetica-Bold'" font-size="16">Symbol Anatomy</text>
+	<g>
+		<line fill="none" stroke="#ED454A" stroke-width="8" x1="93.9" y1="407.409" x2="93.9" y2="573"/>
+		<line fill="none" stroke="#ED454A" stroke-width="8" x1="93.684" y1="435.226" x2="68.674" y2="435.226"/>
+		<line fill="none" stroke="#ED454A" stroke-width="8" x1="118.968" y1="536" x2="93.958" y2="536"/>
+		<line fill="none" stroke="#39B54A" stroke-width="8" x1="256.102" y1="573" x2="256.102" y2="407.409"/>
+		<line fill="none" stroke="#39B54A" stroke-width="8" x1="256.316" y1="435.226" x2="281.326" y2="435.226"/>
+		<line fill="none" stroke="#39B54A" stroke-width="8" x1="231.033" y1="536" x2="256.043" y2="536"/>
+		<text transform="matrix(1 0 0 1 228.9453 390)" fill="#39B54A" font-family="'Helvetica-Bold'" font-size="16">Bullish</text>
+		<text transform="matrix(1 0 0 1 64.1812 390)" fill="#ED454A" font-family="'Helvetica-Bold'" font-size="16">Bearish</text>
+		<text transform="matrix(1 0 0 1 160.6035 413.4092)" font-family="'Helvetica'" font-size="14">High</text>
+		<text transform="matrix(1 0 0 1 24.876 439.2256)" font-family="'Helvetica'" font-size="14">Open</text>
+		<text transform="matrix(1 0 0 1 127.7715 540.792)" font-family="'Helvetica'" font-size="14">Close</text>
+		<text transform="matrix(1 0 0 1 290.8535 440.2256)" font-family="'Helvetica'" font-size="14">Close</text>
+		<text transform="matrix(1 0 0 1 188.209 539.792)" font-family="'Helvetica'" font-size="14">Open</text>
+		<g>
+			<g>
+				<line fill="none" stroke="#999999" x1="152.334" y1="408.409" x2="109.51" y2="408.409"/>
+				<g>
+					<polygon fill="#999999" points="110.969,403.423 102.333,408.409 110.969,413.396 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<line fill="none" stroke="#999999" x1="197.166" y1="408.409" x2="239.99" y2="408.409"/>
+				<g>
+					<polygon fill="#999999" points="238.531,413.396 247.166,408.409 238.531,403.423 					"/>
+				</g>
+			</g>
+		</g>
+		<text transform="matrix(1 0 0 1 162.1587 576.5)" font-family="'Helvetica'" font-size="14">Low</text>
+		<g>
+			<g>
+				<line fill="none" stroke="#999999" x1="152.334" y1="571.5" x2="109.51" y2="571.5"/>
+				<g>
+					<polygon fill="#999999" points="110.969,566.514 102.333,571.5 110.969,576.486 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<line fill="none" stroke="#999999" x1="197.166" y1="571.5" x2="239.99" y2="571.5"/>
+				<g>
+					<polygon fill="#999999" points="238.531,576.486 247.166,571.5 238.531,566.514 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+</svg>

@@ -1,0 +1,134 @@
+What is the agenda of the day?
+- intersection of software development and financial markets
+- this class will help you leverage in your interest in financial markets
+  like stocks, options, crypto market and coding to analyze market data - backtesting trading strategy,
+  building a trading bot.
+- this class will quench your curiosity on how traders apply technical analysis,
+  and indicators in order to find good trade ideas
+
+CCXT intro
+- https://bihu.com/article/1629320804
+- https://coil.com/p/sarantium/CCXT-Exercise-Index/U3-ljsKK1
+
+
+What we did in this cctx demo?
+
+- Create API key to connect to our account
+- create buy and sell orders
+- fetch historical data
+- get a quote
+- fetch the balance
+- OHLC Chart - https://www.investopedia.com/terms/o/ohlcchart.asp
+- chart image reference - https://datavizcatalogue.com/methods/OHLC_chart.html
+
+technical analysis
+- Average True Range - Google search on investopedia (Indicators that people use)
+
+
+Demo 1
+- Volume Weighted Average Market Pair Price (VWAMPP) 
+  - What is volume?
+    - The amount of a cryptocurrency that was traded on an exchange is called the volume.
+
+  - What is the true price of Bitcoin or any other cryptocurrency?
+    - It depends on who you ask from: Bitcoin is currently traded on 
+      hundreds of exchanges all over the world. 
+      Each exchange reports a different price. In fact, people make 
+      money from taking advantage of this price difference in 
+      a process called arbitrage.
+    - So among all these prices which one is the true price of Bitcoin? 
+      Let’s take a simple example:
+      Suppose there are only two exchanges who report the price of BTC in USD:
+        - Exchange1 reports $10,000
+        - Exchange2 reports $12,000
+        - Which one is the true price?
+          1. One way is to report the average of the two prices, i.e., $11,000. 
+            The problem with this approach is that there might be only a few trades on 
+            Exchange1, but millions of trades on Exchange2. 
+          2. So a better approach is to give more weight to the exchange that has 
+            more trades (or more traffic).
+          
+          We would like to give more weight to the exchange with higher volume.
+          So assume:
+            Exchange1 reports $10,000 with a daily volume of $1 B
+            Exchange2 reports $12,000 with a daily volume of $99 B
+            
+            Now the volume-weighted average price in USD would be:
+
+            VWAMPP = 10,000 * (1 / 100B) + 12,000 * (99 / 100B)  = 11,980
+
+            (CoinMarketCap.com and coinGecko.com are among the leading websites to 
+            report a volume weighted average price for each coin which is 
+            calculated on hundreds of exchanges.)
+
+            What is VWAMPP?
+            - Volume-Weighted Average Market Market Pair Price (VWAMPP) is the average of 
+              the market pair prices from all exchanges where each market pair price is 
+              weighted by its volume.
+
+
+          - Exchanges usually report the price of a market pair, 
+            for example: BTC/USD = 10,000 means each BTC is 10,000 USD.
+
+          Quote Currency
+          - The currency that is used as the reference is called the quote currency.
+          Base Currency
+          - The currency that is quoted in relation is called the base currency. 
+          
+          - In this example, BTC is the base, and USD is the quote.
+          - exchanges report a volume for each market pair.
+
+        
+        Not every exchange reports the price of each cryptocurrency directly in US Dollars (USD)?
+
+        Currency Pairs with Foreign Fiat Currencies:
+
+        Suppose our example two exchanges report the following:
+        - Exchange1: BTC/USD= 10,000. Daily volume = 3 B
+        - Exchange2: BTC/EUR= 8,000. Daily volume = 1B
+
+        What is the volume average price?
+        - Since the first pair is in USD, and the second is in EUR, 
+          we should first convert both the price and the volume of Exchange2 
+          from EUR to USD, before calculating the volume average price.
+
+          Suppose EUR/USD is 1.2, i.e. each EUR is 1.2 USD. Then we can write:
+          - Exchange1: BTC/USD= 10,000. Daily volume = 3 B
+          - Exchange2: BTC/EUR= 8,000*1.2. Daily volume = 1*1.2 B
+
+          VWAMPP for BTC = 10,000 * (3/4.2 B) + 8000 * (1.2 / 4.2 B) = 9885.71 
+
+          Suppose our imaginary exchanges report the following:
+          - Exchange1: BTC/USD= 10,000. Daily volume = 3 B
+          - Exchange2: ETH/BTC= 0.02. Daily volume = 5 M
+
+            What is VWAMPP in USD?
+              We need to find two things:
+              1. BTC/USD on Exchange2
+                Exchange2 only reports the price of ETH to be 0.02 BTC. 
+                But what we need is the price of BTC in USD on Exchange2.
+
+                In order to get to BTC/USD, we can write:
+
+                BTC/USD = BTC/ETH  * ETH/USD  = (1 / ETH/BTC)  * ETH/USD
+
+                So if we knew ETH/USD, we can calculate BTC/USD as follows:
+
+                BTC/USD = 1/0.02 * ETH/USD = 50 * ETH/USD
+
+                Assuming we keep a database of all cryptocurrency prices and in our 
+                latest calculations we had the VWAMPP of ETH/USD=204, we can write
+
+                BTC/USD = 50 * 204  = 10,200
+
+                
+
+  - Reference : https://github.com/ourarash/crypto-aggregator
+    - The code continuously fetches the prices from all given exchanges and 
+      calculates the average price, where the price from each exchange is weighted 
+      by its volume.
+
+Demo 2
+- An automated trading bot in order to execute trades automatically
+
+- 
