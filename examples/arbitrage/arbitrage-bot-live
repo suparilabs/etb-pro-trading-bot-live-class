@@ -1,0 +1,380 @@
+Symbol excluded (wallet update, deposit maintenance, bug, etc): 
+[
+  'STEEM/BTC', 'STEEM/ETH',
+  'RADS/BTC',  'NEOS/BTC',
+  'SBD/BTC',   'XRB/BTC',
+  'BCD/BTC',   'BCD/ETH'
+]
+[90mThu, 17 Jun 2021 16:23:23 GMT[39m	[33mbinanceus, coinbasepro[39m
+[90mThu, 17 Jun 2021 16:23:23 GMT[39m	[32mbinanceus[39m loaded [32m109[39m markets
+[90mThu, 17 Jun 2021 16:23:24 GMT[39m	[32mcoinbasepro[39m loaded [32m223[39m markets
+[90mThu, 17 Jun 2021 16:23:24 GMT[39m	[32mLoaded all markets[39m
+[90mThu, 17 Jun 2021 16:23:24 GMT[39m	symbol    | binanceus | coinbasepro
+                             	-----------------------------------
+                             	ADA/BTC   | binanceus | coinbasepro
+                             	ADA/USD   | binanceus | coinbasepro
+                             	ALGO/USD  | binanceus | coinbasepro
+                             	ATOM/USD  | binanceus | coinbasepro
+                             	BAND/USD  | binanceus | coinbasepro
+                             	BAT/USD   | binanceus | coinbasepro
+                             	BCH/BTC   | binanceus | coinbasepro
+                             	BCH/USD   | binanceus | coinbasepro
+                             	BTC/USD   | binanceus | coinbasepro
+                             	BTC/USDC  | binanceus | coinbasepro
+                             	BTC/USDT  | binanceus | coinbasepro
+                             	COMP/USD  | binanceus | coinbasepro
+                             	DAI/USD   | binanceus | coinbasepro
+                             	DASH/USD  | binanceus | coinbasepro
+                             	DOGE/USD  | binanceus | coinbasepro
+                             	DOGE/USDT | binanceus | coinbasepro
+                             	ENJ/USD   | binanceus | coinbasepro
+                             	EOS/USD   | binanceus | coinbasepro
+                             	ETC/USD   | binanceus | coinbasepro
+                             	ETH/BTC   | binanceus | coinbasepro
+                             	ETH/USD   | binanceus | coinbasepro
+                             	ETH/USDT  | binanceus | coinbasepro
+                             	KNC/USD   | binanceus | coinbasepro
+                             	LINK/BTC  | binanceus | coinbasepro
+                             	LINK/USD  | binanceus | coinbasepro
+                             	LTC/BTC   | binanceus | coinbasepro
+                             	LTC/USD   | binanceus | coinbasepro
+                             	MANA/USD  | binanceus | coinbasepro
+                             	MATIC/USD | binanceus | coinbasepro
+                             	MKR/USD   | binanceus | coinbasepro
+                             	OMG/USD   | binanceus | coinbasepro
+                             	OXT/USD   | binanceus | coinbasepro
+                             	REP/USD   | binanceus | coinbasepro
+                             	SOL/USD   | binanceus | coinbasepro
+                             	SOL/USDT  | binanceus | coinbasepro
+                             	STORJ/USD | binanceus | coinbasepro
+                             	UNI/BTC   | binanceus | coinbasepro
+                             	UNI/USD   | binanceus | coinbasepro
+                             	USDT/USD  | binanceus | coinbasepro
+                             	XLM/USD   | binanceus | coinbasepro
+                             	XTZ/BTC   | binanceus | coinbasepro
+                             	XTZ/USD   | binanceus | coinbasepro
+                             	ZEC/USD   | binanceus | coinbasepro
+                             	ZRX/USD   | binanceus | coinbasepro
+[90mThu, 17 Jun 2021 16:23:25 GMT[39m	[31mADA/BTC: -0.6517598343685366 % [39m
+[90mThu, 17 Jun 2021 16:23:26 GMT[39m	[31mADA/USD: -0.6267576426516758 % [39m
+[90mThu, 17 Jun 2021 16:23:27 GMT[39m	[31mALGO/USD: -0.69380863039401 % [39m
+[90mThu, 17 Jun 2021 16:23:28 GMT[39m	[31mATOM/USD: -0.6557452442338624 % [39m
+[90mThu, 17 Jun 2021 16:23:29 GMT[39m	[31mBAND/USD: -0.7071873460992578 % [39m
+[90mThu, 17 Jun 2021 16:23:30 GMT[39m	[31mBAT/USD: -0.7206636500754143 % [39m
+[90mThu, 17 Jun 2021 16:23:31 GMT[39m	[31mBCH/BTC: -0.71495721037168 % [39m
+[90mThu, 17 Jun 2021 16:23:32 GMT[39m	[31mBCH/USD: -0.6396641766377992 % [39m
+[90mThu, 17 Jun 2021 16:23:33 GMT[39m	[31mBTC/USD: -0.5989140299572643 % [39m
+[90mThu, 17 Jun 2021 16:23:34 GMT[39m	[31mBTC/USDC: -0.6062820565850385 % [39m
+[90mThu, 17 Jun 2021 16:23:35 GMT[39m	[31mBTC/USDT: -0.6202445112941429 % [39m
+[90mThu, 17 Jun 2021 16:23:36 GMT[39m	[31mCOMP/USD: -0.6619699934768403 % [39m
+[90mThu, 17 Jun 2021 16:23:37 GMT[39m	[31mDAI/USD: -0.6169835259797968 % [39m
+[90mThu, 17 Jun 2021 16:23:38 GMT[39m	[31mDASH/USD: -0.669905000896231 % [39m
+[90mThu, 17 Jun 2021 16:23:39 GMT[39m	[31mDOGE/USD: -0.6 % [39m
+[90mThu, 17 Jun 2021 16:23:40 GMT[39m	[31mDOGE/USDT: -0.6313355048859876 % [39m
+[90mThu, 17 Jun 2021 16:23:41 GMT[39m	[31mENJ/USD: -0.6914205344584973 % [39m
+[90mThu, 17 Jun 2021 16:23:42 GMT[39m	[31mEOS/USD: -0.6504642712959136 % [39m
+[90mThu, 17 Jun 2021 16:23:43 GMT[39m	[31mETC/USD: -0.6925277133976498 % [39m
+[90mThu, 17 Jun 2021 16:23:44 GMT[39m	[31mETH/BTC: -0.6372934671574176 % [39m
+[90mThu, 17 Jun 2021 16:23:45 GMT[39m	[31mETH/USD: -0.599161576738782 % [39m
+[90mThu, 17 Jun 2021 16:23:46 GMT[39m	[31mETH/USDT: -0.64066165312675 % [39m
+[90mThu, 17 Jun 2021 16:23:47 GMT[39m	[31mKNC/USD: -0.5591670069416071 % [39m
+[90mThu, 17 Jun 2021 16:23:48 GMT[39m	[31mLINK/BTC: -0.6900443673155449 % [39m
+[90mThu, 17 Jun 2021 16:23:49 GMT[39m	[31mLINK/USD: -0.6534801702049892 % [39m
+[90mThu, 17 Jun 2021 16:23:50 GMT[39m	[31mLTC/BTC: -0.6688547165480724 % [39m
+[90mThu, 17 Jun 2021 16:23:51 GMT[39m	[31mLTC/USD: -0.6178030977390109 % [39m
+[90mThu, 17 Jun 2021 16:23:52 GMT[39m	[31mMANA/USD: -0.7147776183644033 % [39m
+[90mThu, 17 Jun 2021 16:23:53 GMT[39m	[31mMATIC/USD: -0.6 % [39m
+[90mThu, 17 Jun 2021 16:23:54 GMT[39m	[31mMKR/USD: -0.735187752261956 % [39m
+[90mThu, 17 Jun 2021 16:23:55 GMT[39m	[31mOMG/USD: -0.7047973917093547 % [39m
+[90mThu, 17 Jun 2021 16:23:56 GMT[39m	[31mOXT/USD: -0.8195045468799117 % [39m
+[90mThu, 17 Jun 2021 16:23:57 GMT[39m	REP/USD : Buy of 3.196704 on binanceus at price 18.73 fees : 0.001 and sell on coinbasepro fees : 0.001 at price 23.87   => Win of = 26.84 % 
+[90mThu, 17 Jun 2021 16:23:58 GMT[39m	[31mSOL/USD: -0.6615214634575145 % [39m
+[90mThu, 17 Jun 2021 16:23:59 GMT[39m	[31mSOL/USDT: -0.8566858888062739 % [39m
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/dhruvin/.npm/_npx/45617/lib/node_modules/pm2/lib/ProcessContainerFork.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}

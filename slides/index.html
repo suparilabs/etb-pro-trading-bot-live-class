@@ -224,7 +224,7 @@ and many more. [Reference](https://www.investopedia.com/articles/active-trading/
 
 <section data-markdown><script type="text/template">
 
-## Architecture of Node JS crypto trading bot
+## Typical crypto trading bot architecture
 
 <img src="bot-architecture.svg" width="500" />
   
@@ -232,10 +232,17 @@ and many more. [Reference](https://www.investopedia.com/articles/active-trading/
 
 <section data-markdown><script type="text/template">
 
+## We'll focus on 
+  
+<img src="bot-architecture-sel.svg" width="700" />
+    
+</script></section>
+
+<section data-markdown><script type="text/template">
+
 ## CCXT: Convenience crypto trading API
 
-* Supports 120+ cryptocurrency centralized exchanges
-* Available in Node JS, python and PHP
+* Bridge to over 115 bitcoin/altcoin exchanges
 ```
 # Node JS installation
 $ npm install ccxt
@@ -244,20 +251,81 @@ $ npm install ccxt
 
 <section data-markdown><script type="text/template">
 
+## Why CCXT?
+
+* Not everyone trades on same crypto exchange
+  * Binance, bitmex, coinbase, kraken, kucoin, etc
+* Abstraction for multiple exchanges
+* Multiple language support (Node JS, Python and PHP)
+
+</script></section>
+
+<section data-markdown><script type="text/template">
+
+## CCXT library structure
+* Common set of methods
+
+```
+                             User
++-------------------------------------------------------------+
+|                            CCXT                             |
++------------------------------+------------------------------+
+|            Public            |           Private            |
++=============================================================+
+│                              .                              |
+│                    The Unified CCXT API                     |
+│                              .                              |
+|       loadMarkets            .           fetchBalance       |
+|       fetchMarkets           .            createOrder       |
+|       fetchCurrencies        .            cancelOrder       |
+|       fetchTicker            .             fetchOrder       |
+|       fetchTickers           .            fetchOrders       |
+|       fetchOrderBook         .        fetchOpenOrders       |
+|       fetchOHLCV             .      fetchClosedOrders       |
+|       fetchStatus            .          fetchMyTrades       |
+|       fetchTrades            .                deposit       |
+|                              .               withdraw       |
+│                              .                              |
++=============================================================+
+│                              .                              |
+|                     Custom Exchange API                     |
+|         (Derived Classes And Their Implicit Methods)        |
+│                              .                              |
+|       publicGet...           .          privateGet...       |
+|       publicPost...          .         privatePost...       |
+|                              .          privatePut...       |
+|                              .       privateDelete...       |
+|                              .                   sign       |
+│                              .                              |
++=============================================================+
+│                              .                              |
+|                      Base Exchange Class                    |
+│                              .                              |
++=============================================================+
+```
+
+</script></section>
+
+<section data-markdown><script type="text/template">
+
 ## CCXT: Example Usage
 
 ```
-// initialize
 const ccxt = require('ccxt');
 
 // print all supported exchanges
 console.log(ccxt.exchanges)
 
-// create kraken exchange object
+// instantiate kraken exchange object
 const krakenExchange = new ccxt.kraken();
 
 // print kraken id and market available on kraken
 console.log(krakenExchange.id, await kraken.loadMarkets)
+
+// instantiation with API key
+const exchange = new ccxt.binance ({
+            'apiKey': process.env.BINANCE_API_KEY,
+            'secret': process.env.BINANCE_SECRET_KEY})
 ```
 </script></section>
 
@@ -265,11 +333,54 @@ console.log(krakenExchange.id, await kraken.loadMarkets)
 
 ## Demo
 
-* A cli based automatic arbitrage crypto exchange 
+* A cli based automatic arbitrage crypto exchange
+  * accepts the exchanges to 
+  * detects the arbitrage opportunity if profit is >6%
+  * emits a message with all details of arbitrage among exchanges supplied
   
 </script></section>
 
+<section data-markdown><script type="text/template">
+
+## Backtesting
+
+* Simulation to evaluate performance of trading strategy 
+* Requirements
+  * Candlestick data
+  * Tick-by-tick trade data
+  * Order book snapshot data (Recommended)
+  
+</script></section>
+
+<section>
+
+<p data-markdown>
+## Order book snapshot data
+</p>
+
+<div class="left">
+    <img src="order-book-snapshot.png" style="float: left; border:0px; background-color: white" />
+</div>
+
+<div class="right"><p data-markdown>
+* Exact state of a market at the time of snapshot 
+* Orders available on an exchange at a particular time
+</p></div>
+
 </section>
+
+<section data-markdown><script type="text/template">
+
+## Performance formulae
+
+***Performance = [ ( Vf - Vi ) / Vi ] * 100***
+
+* Where
+  * **Vf** is the final value of the portfolio
+  * **Vi** is the initial value of the portfolio
+  * **Multiply by 100** to convert from a decimal to a percentage
+</script></section>
+
 
 <section data-markdown><script type="text/template">
 
@@ -277,7 +388,6 @@ console.log(krakenExchange.id, await kraken.loadMarkets)
 * [CCXT Github](https://github.com/ccxt/ccxt)
 
 </script></section>
-
 
 <section data-markdown><script type="text/template">
 

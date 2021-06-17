@@ -1,0 +1,99 @@
+Symbol excluded (wallet update, deposit maintenance, bug, etc): 
+[
+  'STEEM/BTC', 'STEEM/ETH',
+  'RADS/BTC',  'NEOS/BTC',
+  'SBD/BTC',   'XRB/BTC',
+  'BCD/BTC',   'BCD/ETH'
+]
+[90mThu, 17 Jun 2021 13:56:16 GMT[39m	[33mbinanceus, coinbasepro[39m
+[90mThu, 17 Jun 2021 13:56:16 GMT[39m	[32mbinanceus[39m loaded [32m109[39m markets
+[90mThu, 17 Jun 2021 13:56:17 GMT[39m	[32mcoinbasepro[39m loaded [32m223[39m markets
+[90mThu, 17 Jun 2021 13:56:17 GMT[39m	[32mLoaded all markets[39m
+[90mThu, 17 Jun 2021 13:56:17 GMT[39m	symbol    | binanceus | coinbasepro
+                             	-----------------------------------
+                             	ADA/BTC   | binanceus | coinbasepro
+                             	ADA/USD   | binanceus | coinbasepro
+                             	ALGO/USD  | binanceus | coinbasepro
+                             	ATOM/USD  | binanceus | coinbasepro
+                             	BAND/USD  | binanceus | coinbasepro
+                             	BAT/USD   | binanceus | coinbasepro
+                             	BCH/BTC   | binanceus | coinbasepro
+                             	BCH/USD   | binanceus | coinbasepro
+                             	BTC/USD   | binanceus | coinbasepro
+                             	BTC/USDC  | binanceus | coinbasepro
+                             	BTC/USDT  | binanceus | coinbasepro
+                             	COMP/USD  | binanceus | coinbasepro
+                             	DAI/USD   | binanceus | coinbasepro
+                             	DASH/USD  | binanceus | coinbasepro
+                             	DOGE/USD  | binanceus | coinbasepro
+                             	DOGE/USDT | binanceus | coinbasepro
+                             	ENJ/USD   | binanceus | coinbasepro
+                             	EOS/USD   | binanceus | coinbasepro
+                             	ETC/USD   | binanceus | coinbasepro
+                             	ETH/BTC   | binanceus | coinbasepro
+                             	ETH/USD   | binanceus | coinbasepro
+                             	ETH/USDT  | binanceus | coinbasepro
+                             	KNC/USD   | binanceus | coinbasepro
+                             	LINK/BTC  | binanceus | coinbasepro
+                             	LINK/USD  | binanceus | coinbasepro
+                             	LTC/BTC   | binanceus | coinbasepro
+                             	LTC/USD   | binanceus | coinbasepro
+                             	MANA/USD  | binanceus | coinbasepro
+                             	MATIC/USD | binanceus | coinbasepro
+                             	MKR/USD   | binanceus | coinbasepro
+                             	OMG/USD   | binanceus | coinbasepro
+                             	OXT/USD   | binanceus | coinbasepro
+                             	REP/USD   | binanceus | coinbasepro
+                             	SOL/USD   | binanceus | coinbasepro
+                             	SOL/USDT  | binanceus | coinbasepro
+                             	STORJ/USD | binanceus | coinbasepro
+                             	UNI/BTC   | binanceus | coinbasepro
+                             	UNI/USD   | binanceus | coinbasepro
+                             	USDT/USD  | binanceus | coinbasepro
+                             	XLM/USD   | binanceus | coinbasepro
+                             	XTZ/BTC   | binanceus | coinbasepro
+                             	XTZ/USD   | binanceus | coinbasepro
+                             	ZEC/USD   | binanceus | coinbasepro
+                             	ZRX/USD   | binanceus | coinbasepro
+[90mThu, 17 Jun 2021 13:56:18 GMT[39m	[31mADA/BTC: -0.6258732212160328 % [39m
+[90mThu, 17 Jun 2021 13:56:19 GMT[39m	[31mADA/USD: -0.6066764588062429 % [39m
+[90mThu, 17 Jun 2021 13:56:20 GMT[39m	[31mALGO/USD: -0.7045527991635819 % [39m
+[90mThu, 17 Jun 2021 13:56:21 GMT[39m	[31mATOM/USD: -0.679953481610695 % [39m
+[90mThu, 17 Jun 2021 13:56:22 GMT[39m	[31mBAND/USD: -0.6362718356450631 % [39m
+[90mThu, 17 Jun 2021 13:56:23 GMT[39m	[31mBAT/USD: -0.7796407185628901 % [39m
+[90mThu, 17 Jun 2021 13:56:24 GMT[39m	[31mBCH/BTC: -0.7402882285422846 % [39m
+[90mThu, 17 Jun 2021 13:56:25 GMT[39m	[31mBCH/USD: -0.6526922443602751 % [39m
+[90mThu, 17 Jun 2021 13:56:26 GMT[39m	[31mBTC/USD: -0.6011098315069291 % [39m
+[90mThu, 17 Jun 2021 13:56:27 GMT[39m	[31mBTC/USDC: -0.6493430433147646 % [39m
+[90mThu, 17 Jun 2021 13:56:28 GMT[39m	[31mBTC/USDT: -0.6179402525058214 % [39m
+[90mThu, 17 Jun 2021 13:56:29 GMT[39m	[31mCOMP/USD: -0.7270523846755189 % [39m
+[90mThu, 17 Jun 2021 13:56:30 GMT[39m	[31mDAI/USD: -0.6298701597104545 % [39m
+[90mThu, 17 Jun 2021 13:56:31 GMT[39m	[31mDASH/USD: -0.6550100556015565 % [39m
+[90mThu, 17 Jun 2021 13:56:32 GMT[39m	[31mDOGE/USD: -0.632541490400273 % [39m
+[90mThu, 17 Jun 2021 13:56:33 GMT[39m	[31mDOGE/USDT: -0.6248372395833196 % [39m
+[90mThu, 17 Jun 2021 13:56:34 GMT[39m	[31mENJ/USD: -0.6563063063063196 % [39m
+[90mThu, 17 Jun 2021 13:56:35 GMT[39m	[31mEOS/USD: -0.6707142135569216 % [39m
+[90mThu, 17 Jun 2021 13:56:36 GMT[39m	[31mETC/USD: -0.660747663551397 % [39m
+[90mThu, 17 Jun 2021 13:56:37 GMT[39m	[31mETH/BTC: -0.6374653852418971 % [39m
+[90mThu, 17 Jun 2021 13:56:38 GMT[39m	[31mETH/USD: -0.6143009165204932 % [39m
+[90mThu, 17 Jun 2021 13:56:39 GMT[39m	[31mETH/USDT: -0.6365915208613732 % [39m
+[90mThu, 17 Jun 2021 13:56:40 GMT[39m	[31mKNC/USD: -0.5390491670052894 % [39m
+[90mThu, 17 Jun 2021 13:56:41 GMT[39m	[31mLINK/BTC: -0.6508230047872038 % [39m
+[90mThu, 17 Jun 2021 13:56:42 GMT[39m	[31mLINK/USD: -0.6589953023826695 % [39m
+[90mThu, 17 Jun 2021 13:56:43 GMT[39m	[31mLTC/BTC: -0.6916380297823482 % [39m
+[90mThu, 17 Jun 2021 13:56:44 GMT[39m	[31mLTC/USD: -0.617756732761176 % [39m
+[90mThu, 17 Jun 2021 13:56:45 GMT[39m	[31mMANA/USD: -0.7143183766790567 % [39m
+[90mThu, 17 Jun 2021 13:56:46 GMT[39m	[31mMATIC/USD: -0.6331873091729662 % [39m
+[90mThu, 17 Jun 2021 13:56:47 GMT[39m	[31mMKR/USD: -0.7552345817624423 % [39m
+[90mThu, 17 Jun 2021 13:56:48 GMT[39m	[31mOMG/USD: -0.6772663176804578 % [39m
+[90mThu, 17 Jun 2021 13:56:49 GMT[39m	[31mOXT/USD: -0.7251956181533731 % [39m
+[90mThu, 17 Jun 2021 13:56:50 GMT[39m	REP/USD : Buy of 1.5 on binanceus at price 18.62 fees : 0.001 and sell on coinbasepro fees : 0.001 at price 23.84   => Win of = 27.43 % 
+[90mThu, 17 Jun 2021 13:56:53 GMT[39m	[31mSTORJ/USD: -0.7104850292785286 % [39m
+[90mThu, 17 Jun 2021 13:56:54 GMT[39m	[31mUNI/BTC: -0.7304234414398753 % [39m
+[90mThu, 17 Jun 2021 13:56:55 GMT[39m	[31mUNI/USD: -0.640429995462854 % [39m
+[90mThu, 17 Jun 2021 13:56:56 GMT[39m	[31mUSDT/USD: -0.6 % [39m
+[90mThu, 17 Jun 2021 13:56:57 GMT[39m	[31mXLM/USD: -0.6276064009628096 % [39m
+[90mThu, 17 Jun 2021 13:56:58 GMT[39m	[31mXTZ/BTC: -0.7027514556456332 % [39m
+[90mThu, 17 Jun 2021 13:56:59 GMT[39m	[31mXTZ/USD: -0.6913942038385684 % [39m
+[90mThu, 17 Jun 2021 13:57:00 GMT[39m	[31mZEC/USD: -0.6915750915750912 % [39m
+[90mThu, 17 Jun 2021 13:57:01 GMT[39m	[31mZRX/USD: -0.7107982140193364 % [39m
